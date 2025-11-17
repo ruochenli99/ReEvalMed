@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReEvalMed – Project Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .authors, .links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .links a {
+            margin: 0 10px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 4px 6px;
+            border-radius: 4px;
+        }
+        .section {
+            margin-top: 50px;
+        }
+        .footer {
+            margin-top: 70px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>ReEvalMed</h1>
+
+<div class="authors">
+    Ruochen Li*, Jun Li*, Bailiang Jian, Kun Yuan, Youxiang Zhu  
+    <br><small>*Equal contribution</small>
+</div>
+
+<div class="links">
+    <a href="https://arxiv.org/pdf/2510.00280">📄 Paper</a>
+    <a href="https://github.com/ruochenli99/ReEvalMed">💻 Code (GitHub)</a>
+    <a href="#dataset">📊 Dataset</a>
+</div>
+
+<hr>
+
+<div class="section">
+    <h2>Overview</h2>
+    <p>
+        <b>ReEvalMed</b> is a clinically grounded meta-evaluation framework designed to assess the reliability of radiology report generation metrics. 
+        While many existing metrics assign high scores to generated reports, they often fail to capture clinically significant errors that matter to physicians.
+        ReEvalMed redefines how metrics should be evaluated by aligning with clinical needs and real-world decision-making.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Key Contributions</h2>
+    <ul>
+        <li>A comprehensive, clinically aligned meta-evaluation framework for medical report metrics.</li>
+        <li>Fine-grained GT–ME (Ground Truth – Modified Error) dataset with targeted error types and clinical significance labels.</li>
+        <li>Systematic analysis of weaknesses in widely used metrics (BLEU, ROUGE-L, BERTScore, RadGraph-F1, CheXbert F1, Green Score).</li>
+        <li>Demonstration that no existing metric satisfies all essential criteria such as discrimination, robustness, and monotonicity.</li>
+        <li>Guidelines for developing clinically reliable evaluation approaches.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Dataset</h2>
+    <p id="dataset">
+        The ReEvalMed dataset is currently under formal review and approval.
+        It will be publicly released on <b>PhysioNet</b> once the review process is completed.
+        <br><br>
+        If you need early access for research purposes, please feel free to contact: <a href="mailto:liruochen8@gmail.com">liruochen8@gmail.com</a>.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Code</h2>
+    <p>
+        The official implementation will be released soon on GitHub.
+        <br><br>
+        If you require early access to the codebase, please contact:  
+        <a href="mailto:liruochen8@gmail.com">liruochen8@gmail.com</a>
+
+    </p>
+</div>
+
+<div class="section">
+    <h2>BibTeX</h2>
+    <pre>
+@article{li2025reevalmed,
+  title={ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment},
+  author={Li, Ruochen and Li, Jun and Jian, Bailiang and Yuan, Kun and Zhu, Youxiang},
+  journal={arXiv preprint arXiv:2510.00280},
+  year={2025}
+}
+    </pre>
+</div>
+
+<div class="footer">
+    © 2025 ReEvalMed Project  
+</div>
+
+</body>
+</html>
