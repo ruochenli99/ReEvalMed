@@ -56,7 +56,7 @@
 <div class="links">
     <a href="https://aclanthology.org/2025.emnlp-main.598.pdf">📄 Paper</a>
     <a href="https://github.com/ruochenli99/ReEvalMed">💻 Code (GitHub)</a>
-    <a href="#dataset">📊 Dataset</a>
+    <a href="https://doi.org/10.13026/esap-z328">📊 Dataset (PhysioNet)</a>
 </div>
 
 <hr>
@@ -84,10 +84,20 @@
 <div class="section">
     <h2>Dataset</h2>
     <p id="dataset">
-        The ReEvalMed dataset is currently under formal review and approval.
-        It will be publicly released on <b>PhysioNet</b> once the review process is completed.
-        <br><br>
-        If you need early access for research purposes, please feel free to contact: <a href="mailto:liruochen8@gmail.com">liruochen8@gmail.com</a>.
+        🎉 The ReEvalMed dataset (v1.0.0) is now released on <b>PhysioNet</b>:
+        <a href="https://doi.org/10.13026/esap-z328">https://doi.org/10.13026/esap-z328</a>
+    </p>
+    <p>
+        It contains <b>400 expert-validated GT–ME pairs</b> built from MIMIC-CXR and ReXVal reports, covering
+        3 error types (omission, fabrication, inaccuracy) and 12 clinical evaluation aspects. Each pair is labeled with
+        its clinical significance, error type and an explanation, and a monotonicity subset groups rewrites into
+        five severity levels.
+    </p>
+    <p>
+        Because the dataset is derived from MIMIC-CXR and ReXVal, it is distributed under the same terms as its source data.
+        To access it, become a credentialed PhysioNet user, complete the required training, and sign the data use agreement
+        on the <a href="https://doi.org/10.13026/esap-z328">dataset page</a>. The data is for research use only and must not
+        be used for clinical decision-making.
     </p>
 </div>
 
@@ -112,11 +122,20 @@
   pages={11823--11837},
   year={2025}
 }
+
+@misc{li2026reevalmed_dataset,
+  title={ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment (version 1.0.0)},
+  author={Li, Ruochen and Li, Jun and Jian, Bailiang and Yuan, Kun and Zhu, Youxiang},
+  publisher={PhysioNet},
+  year={2026},
+  doi={10.13026/esap-z328},
+  url={https://doi.org/10.13026/esap-z328}
+}
     </pre>
 </div>
 
 <div class="footer">
-    © 2025 ReEvalMed Project  
+    © 2025–2026 ReEvalMed Project
 </div>
 
 </body>
