@@ -94,13 +94,18 @@ If you use ReEvalMed, please cite our paper **and** the dataset:
 
 @misc{li2026reevalmed_dataset,
   title     = {ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment (version 1.0.0)},
-  author    = {Li, Ruochen and Li, Jun and Jian, Bailiang and Yuan, Kun and Zhu, Youxiang},
+  author    = {Li, Ruochen and Xia, Y. and Zhu, Youxiang and Li, Jun and Jian, Bailiang and Yuan, Kun},
   publisher = {PhysioNet},
   year      = {2026},
+  note      = {RRID:SCR_007345},
   doi       = {10.13026/esap-z328},
   url       = {https://doi.org/10.13026/esap-z328}
 }
 ```
+
+Formal dataset citation (as provided by PhysioNet):
+
+> Li, R., Xia, Y., Zhu, Y., Li, J., Jian, B., & Yuan, K. (2026). ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/esap-z328
 
 PhysioNet also asks users to cite the platform:
 
