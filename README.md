@@ -94,7 +94,7 @@ If you use ReEvalMed, please cite our paper **and** the dataset:
 
 @misc{li2026reevalmed_dataset,
   title     = {ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment (version 1.0.0)},
-  author    = {Li, Ruochen and Xia, Y. and Zhu, Youxiang and Li, Jun and Jian, Bailiang and Yuan, Kun},
+  author    = {Li, Ruochen and Xia, Yufei and Zhu, Youxiang and Li, Jun and Jian, Bailiang and Yuan, Kun},
   publisher = {PhysioNet},
   year      = {2026},
   note      = {RRID:SCR_007345},
